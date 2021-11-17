@@ -1,0 +1,19 @@
+package selfprog;
+import java.util.Scanner;
+public class no5 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int total=0,i=0,n;
+	System.out.println("enter no of students:");
+	n=sc.nextInt();
+	System.out.println("enter the marks:");
+	while(i<n) {
+	int mark=sc.nextInt();
+	
+	total=total+mark;
+	
+	i=i+1;
+	}
+	System.out.println("total: "+ total);
+}
+}
