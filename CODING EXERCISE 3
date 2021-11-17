@@ -1,0 +1,22 @@
+package selfprog;
+import java.util.Scanner;
+public class no3 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter your usage");
+	double usage=sc.nextDouble();
+	double bill;
+	
+	if(usage<50)
+		bill=50;
+		
+	else if(usage<100)
+		bill=usage*0.95;
+	else
+	bill=usage*0.80;
+	
+	System.out.println("your bill: RM"+bill);
+	
+	
+}
+}
