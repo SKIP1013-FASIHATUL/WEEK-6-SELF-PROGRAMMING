@@ -1,0 +1,18 @@
+package selfprog;
+import java.util.Scanner;
+public class no2 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter your water consumption");
+	double water=sc.nextDouble();
+	double bill;
+	
+	if(water<=20)
+		bill=water*0.40;
+	else if((water>20) && (water<=40))
+		bill=(20*0.40)+((water-20)*0.20);	
+	else
+		bill=(20*0.40)+(20*0.20)+((water-40)*0.10);
+	System.out.println("your bill: RM "+bill);
+}
+}
