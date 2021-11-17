@@ -1,0 +1,18 @@
+package selfprog;
+import java.util.Scanner;
+public class no1 {
+public static void main (String [] args) {
+	Scanner sc=new Scanner (System.in);
+	System.out.println("enter the code");
+	int code=sc.nextInt();
+	
+	if(code==1)
+		System.out.println("Degree in Computer Science");
+	else if(code==2)
+		System.out.println("Degree in Information Technology");
+	else if(code==3)
+		System.out.println("Degree in Computer Engineering");
+	else
+		System.out.println("CODE INVALID");
+}
+}
