@@ -1,0 +1,12 @@
+package selfprog;
+import java.util.Scanner;
+public class no6 {
+public static void main(String[] args) {
+	int i=2,total = 0;
+			while (i<=10) {
+				total=total+i;
+				i=i+2;
+				}
+			System.out.println("total: "+ total);
+}
+}
