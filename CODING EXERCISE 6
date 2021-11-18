@@ -1,0 +1,16 @@
+package selfprog;
+import java.util.Scanner;
+public class SWITCH {
+public static void main (String[] args) {
+	Scanner sc=new Scanner(System.in);
+	
+	int N=sc.nextInt();
+	switch (N) {
+	case 1: System.out.println("N=10");
+	case 2: System.out.println("N=20");
+	case 3: System.out.println("N=30");
+	default: System.out.println("default");
+	}
+
+}
+}
